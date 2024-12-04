@@ -1,0 +1,40 @@
+body {
+    background-color: rgba(34,61,13,.9); /* Match the dark green background */
+    color: rgba(34,61,13,.9);
+    font-family: Arial, sans-serif;
+}
+.converter {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 1080px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.amount-row {
+    margin-bottom: 20px;
+}
+.exchange-rate {
+    font-size: 1.2rem;
+    color: #007e33;
+    margin-top: 10px;
+}
+.btn-track, .btn-send {
+    width: 100%;
+}
+.btn-track {
+    margin-bottom: 10px;
+}
+.input-group-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.input-group-container button {
+    height: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
